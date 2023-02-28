@@ -1,0 +1,123 @@
+/*
+ * ::::::::::: Custom Styles :::::::::::
+ * Note: use this file to add or override any other styles.
+ * DON'T EDIT TEMPLATE CSS/SCSS FILES DIRECTLY, JUST USE THIS FILE.
+ */
+
+    /*head */
+
+    li.active::after, li:hover::after {
+    border-bottom: 2px solid #10bef0 !important; 
+    }
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > span, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > span, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > span, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > span, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > span, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > span, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > span, header .main-navigation li ul li.active > a, header .main-navigation li ul li.active > span, header .main-navigation li ul li.current-menu-ancestor > a, header .main-navigation li ul li.current-menu-ancestor > span, header .main-navigation li ul li.current-menu-item > a, header .main-navigation li ul li.current-menu-item > span, header .main-navigation li ul li.current-menu-parent > a, header .main-navigation li ul li.current-menu-parent > span, header .main-navigation li ul li.current > a, header .main-navigation li ul li.current > span, header .main-navigation li ul li.current_page_item > a, header .main-navigation li ul li.current_page_item > span, header .main-navigation li.active > a, header .main-navigation li.active > span, header .main-navigation li.current-menu-ancestor > a, header .main-navigation li.current-menu-ancestor > span, header .main-navigation li.current-menu-item > a, header .main-navigation li.current-menu-item > span, header .main-navigation li.current-menu-parent > a, header .main-navigation li.current-menu-parent > span, header .main-navigation li.current > a, header .main-navigation li.current > span, header .main-navigation li.current_page_item > a, header .main-navigation li.current_page_item > span, header .main-navigation li.mega-menu > ul > li > ul > li.active > a, header .main-navigation li.mega-menu > ul > li > ul > li.active > span, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-ancestor > a, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-ancestor > span, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-item > a, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-item > span, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-parent > a, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-parent > span, header .main-navigation li.mega-menu > ul > li > ul > li.current > a, header .main-navigation li.mega-menu > ul > li > ul > li.current > span, header .main-navigation li.mega-menu > ul > li > ul > li.current_page_item > a, header .main-navigation li.mega-menu > ul > li > ul > li.current_page_item > span {
+    color: #10bef0 !important;
+}
+
+.button.is-primary {
+    background-color: #10bef0 !important;
+}
+
+.tp-caption.button:hover {
+    background-color: #fff !important;
+    color: #10bef0 !important;
+}
+
+.tabs li.is-active a {
+    color: #10bef0 !important;
+     border-bottom-color: #10bef0 !important;
+}
+
+.owl-carousel.navs .owl-nav .owl-next::before, .owl-carousel.navs .owl-nav .owl-prev::before {
+    font-size: 25px;
+    font-size: 1.5625rem;
+    color: #10bef0;
+    opacity: 1;
+}
+
+.blog-list.style-2 .blog-post .entry-header .post-meta ul li:first-child a, .blog-list.style-2 .blog-post .entry-header .post-meta ul li:first-child span {
+    color: #10bef0;
+}
+
+body.footer-background.dark-color .footer-bottom-content .footer-copyright a {
+    color: #10bef0;
+}
+
+body.footer-background.dark-color footer .footer-social-links li .icon:hover {
+    background-color: #10bef0;
+    color: #fff;
+}
+
+body.footer-background.dark-color .footer-bottom-content .main-navigation li a:hover {
+    color: #10bef0;
+}
+
+.floating_buttons .float, .floating_buttons ul li a {
+    background-color: #10bef0;
+}
+
+a {
+    color: #10bef0; 
+}
+
+body .header-menu-icons li a:hover {
+    color: #10bef0;
+}
+
+#quickviewInfo .quickview-body .footer .footer-social-links li .icon, #quickviewInfo .quickview-body footer .footer-social-links li .icon {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #10bef0;
+    color: #fff;
+
+}
+
+
+
+
+.testimonials.style-4 .testimonials-item h3 span, .team .team-member .team-member-meta h5 {
+    color: #D8D8D8;
+}
+
+body.footer-background.dark-color footer .footer-social-links li .icon {
+    color: rgba(255,255,255,.9);
+}
+
+body.footer-background.dark-color .footer-bottom-content a, body.footer-background.dark-color .footer-bottom-content p {
+    color: rgba(255,255,255,.85);
+}
+
+.works.isotope .isotope-filter.style-2 li {
+    color: #5c5c5c;
+}
+
+.image-hover.effect-1 figure h5, .image-hover.effect-1 figure p {
+    color: rgba(255,255,255,1);
+}
+
+.works-latest .works-latest-item .works-latest-item-meta h5 a, .works-latest .works-latest-item .works-latest-item-meta h3 a, .works-latest .works-latest-item .works-latest-item-meta h5, .works-latest-item .works-latest-item-meta h3 {
+opacity: 1;
+}
+
+body .image-hover figure img {
+ min-height: auto!important;
+}
+
+@media screen and (max-width:768px) {
+    body .works-latest .works-latest-item .works-latest-item-meta h3 {
+     font-size: 18px;
+    }
+
+    body .image-hover figure img {
+     min-height: auto!important;
+    }
+
+    body .tp-caption.large_text {
+        font-size: 16px!important;
+        padding-top: 25px !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+/*# sourceMappingURL=_maps/custom.css.map */
